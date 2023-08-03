@@ -42,6 +42,12 @@ header .navigation .navigation-items a{
     transition: 0.3s ease;
 }
 
+#audiobook-btn {
+    pointer-events: none; /* Desabilita a interação do botão */
+    color: #464444; /* Cor do texto quando desabilitado (opcional) */
+    cursor: not-allowed; /* Altera o cursor para indicar que o botão está desabilitado (opcional) */
+}
+
 header .navigation .navigation-items a:before{
     content: '';
     position: absolute;
